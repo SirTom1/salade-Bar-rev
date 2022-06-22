@@ -1,0 +1,30 @@
+
+/* ordi */ 
+@media screen and (min-width : 992px){
+    article{
+    
+        flex-basis: 28%;
+        margin: 2%;
+      }
+
+      #myArt{
+        width: 70%;
+      float: left;
+      }
+      h1{
+        font-size: 6em;
+        margin-top: 9%;
+        font-family: Pacifico, cursive;
+        margin-left: 4%;
+      }
+    aside{
+        width: 30%;
+        float: right;
+    }
+
+    header{
+     height: 45vh;
+     background-position-x: 50%;
+    }
+
+}

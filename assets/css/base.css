@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 23vh;
+    background-position-x: -166px;
+  }
+
+h1{
+    font-size: 4em;
+    margin-top: 15%;
+    font-family: Pacifico, cursive;
+  }
+
+  main{
+      margin: 1%;
+  }
+
+  h2{
+    font-family: Pacifico, cursive;
+  }
+
+  #myArt{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  article{
+    background: white;
+    border: 1px solid #ccc;
+    color: black;
+  
+  }
+
+  img{
+      height: 183px;
+      width: 100%;
+  }
+
+  h4{
+      text-align: center;
+  }
+
+  #ColorV {
+    color: #92ab1d;
+  }
+  #BackV{
+    background-color: #92ab1d;
+    color: white;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  button{
+    width: 25%;
+    height: 49px;
+    width: 25%;
+  height: 49px;
+  border-radius: 0px;
+  }
+
+
+  .boxInfo{
+    border: 1px solid #92ab1d;
+    margin: 14px 0px;
+  }
+
+  .sousTextB{
+    margin-left: 13px;
+  }
+
+  h3{
+    margin-top: 0;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #343a40;
+    color: white;
+    height: 130px;
+    margin-top: 50px;
+  }
+
+  
+  .clear{
+      clear: both;
+  }

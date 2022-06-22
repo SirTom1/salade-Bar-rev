@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- changez la langue-->
+<head>
+    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Desc De la page"> <!-- description de la page-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title> <!-- Title de la page-->
+        <!-- CSS VENDOR / Librairie -->
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <!-- CSS perso -->
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/style_portable.css">
+        <link rel="stylesheet" href="assets/css/style_tablet.css">
+        <link rel="stylesheet" href="assets/css/style_pc.css">
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon2.png">
+
+</head>
+<body>
+
+    <header> <!-- la tête du site avec un titre et une background en css-->
+        <h1>Salade-Bar</h1>
+    </header>
+
+    <main>
+        <div class="clear"></div>
+        <h2>1. Choisissez la base de votre bowl ~ <span id="nbrArtSelect"></span> </h2> 
+
+        <section id="myArt">
+            <article class="mR">
+                <img src="assets/img/base_epinards.jpg" alt="image de pousse d'épinards">
+                <h4>Pousse d'épinards</h3>
+            </article>
+            <article>
+                <img src="assets/img/base_riz.jpg" alt="image de pousse d'épinards">
+                <h4>Riz de Camargue Bio</h3>
+            </article>
+            <article class="mR">
+                <img src="assets/img/base_quinoa.jpg" alt="image de Quinoa Royal tricolore">
+                <h4>Quinoa Royal tricolore</h3>
+            </article>
+            <article>
+                <img src="assets/img/base_pousses.jpg" alt="image de pousse d'épinards">
+                <h4>Pousses de salades</h3>
+            </article>
+            <article class="mR">
+                <img src="assets/img/base_pates.jpg" alt="image de Pâtes Bio sans gluten">
+                <h4>Pâtes Bio sans gluten</h3>
+            </article>
+            <article>
+                <img src="assets/img/base_mache.jpg" alt="image de pousse Bouquets de mâche">
+                <h4>Bouquets de mâche</h3>
+            </article>
+        </section>
+
+       <aside>
+        <section>
+            <h2 id="ColorV">Votre bowl</h2>
+
+            <div id="BackV"> <!-- bloc vert qui contient les ingredients et le total -->
+                <p><span id="nbrIngre"></span> ingrédients</p>
+                <h3>Total ~ <span id="TotalPrix"></span> €</h3>
+
+                <button>Valider</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="boxInfo">
+                <p class="sousTextB">Mixez jusqu'à 3 ingrédients inclus pour la base de
+                    votre bowl.
+                    </p>
+            </div>
+            <div class="boxInfo">
+                <p class="sousTextB">Vous prenez un seul ingrédient ?
+                </p>
+                <p class="sousTextB">il sera ajouté en double à votre bowl</p>
+            </div>
+
+            <div class="boxInfo">
+                <p class="sousTextB">Vous prenez seulement 2 ingrédients ?
+                </p>
+                <p class="sousTextB">une remise de 1€50 sera appliquée sur la valeur
+                    total de votre bowl.
+                    </p>
+            </div>
+            <div class="boxInfo">
+                <p class="sousTextB">Vous prenez plus de 3 ingrédients ?
+                </p>
+
+                <p class="sousTextB">un supplément de 1€50 sera appliqué par
+                    ingrédient supplémentaire.
+                    </p>
+            </div>
+        </section>
+       </aside>
+       <div class="clear"></div>
+    </main>
+ 
+    <footer>
+        <p>Eval EdenSchool - good luck, folks !</p>
+    </footer>
+      
+
+  <script src="assets/js/script.js"></script> <!--appelle du JS-->
+</body>
+</html>
